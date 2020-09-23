@@ -123,3 +123,39 @@ section {
 .greeting .content {
   width: 48%;
 }
+
+.work {
+  width: 100%;
+  padding-top: 40px;
+  position: relative;
+  /* background: yellow; */
+}
+
+.work::before {
+  content: '';
+  background: #e8e7e7;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+
+.work h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.work ul {
+  display:flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.work ul li {
+  width: 400px;
+}
+
+.work ul li figure {
+  margin: 0;
+}
