@@ -1,0 +1,216 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic" , "遊ゴシック" , YuGothic, "遊ゴシック", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  /* background: palegreen; */
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header .content-wrapper {
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav ul li {
+  margin-right: 50px;
+}
+
+.subvisual {
+  background-image: url(images/dave-hoefler-lsoogGC_5dg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+
+.subvisual::before {
+  content: '';
+  background-color: rgba(0,0,0,0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.subvisual h1 {
+  font-size: 1.5rem;
+  line-height: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+.work-description01 {
+  margin-bottom: 240px;
+}
+
+.work-description01 dl {
+  width: 100%;
+  position: relative;
+}
+.work-description01 dl dt img {
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.work-description01 dl dd{
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background-color: #fff;
+  color: #333;
+  padding: 80px;
+  z-index: 2;
+}
+.work-description02 {
+  margin-bottom: 240px;
+}
+.work-description02 dl {
+  width: 100%;
+  position: relative;
+}
+.work-description02 dt img{
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+}
+.work-description02 dt{
+  display: flex;
+  justify-content: flex-end;
+}
+.work-description02 dd{
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left:10%;
+  background-color: #fff;
+  color: #333;
+  padding: 80px;
+  z-index: 2;
+}
+
+.work-description03 {
+  margin-bottom: 200px;
+}
+
+.work-description03 dl {
+  width: 100%;
+  position: relative;
+}
+.work-description03 dl dt img {
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.work-description03 dl dd{
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background-color: #fff;
+  color: #333;
+  padding: 80px;
+  z-index: 2;
+}
+
+.work-description03 dl::before {
+  content:'Business';
+  position: absolute;
+  top: -50px;
+  right: 0;
+  font-size: 150px;
+  z-index: 1;
+  color: rgb(204, 194, 194);
+  opacity: 0.1;
+  text-shadow: 5px 10px 10px rgb(53, 51, 51);
+  }
+
+
+
+
+
+
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  align-items: center;
+}
+
+footer .content-wrapper ul {
+  display: flex;
+}
+
+footer .content-wrapper ul li {
+  margin-right: 50px;
+}
+
+.address p {
+  line-height: 1.8;
+}
+
+.copylight p {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 100px;
+  color: #333;
+  background-color: #e8e7e7;
+}
