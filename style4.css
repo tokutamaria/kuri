@@ -1,0 +1,121 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic" , "遊ゴシック" , YuGothic, "遊ゴシック", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  /* background: palegreen; */
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header .content-wrapper {
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header-nav h1 {
+  margin-left: 50px;
+}
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav ul li {
+  margin-right: 50px;
+}
+
+.subvisual {
+  background-image: url(images/gratisography-rainbow-wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.subvisual h1 {
+  line-height: 300px;
+  text-align: center;
+  height: 300px;
+  font-size: 1.5rem;
+}
+
+.recruit-point {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.recruit-table {
+  margin-bottom: 40px;
+}
+
+table.content {
+  width: 100%;
+  border-top: 1px solid #e8e7e7;
+}
+
+table.content th {
+  background-color: #e8e7e7;
+  padding: 20px;
+  width: 30%;
+  text-align: left;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
+
+table.content td {
+  text-align:left;
+  padding: 20px;
+  line-height: 1.5em;
+  border-bottom: 1px solid #e8e7e7;
+  box-sizing: border-box;
+}
+
+table.content th:first-of-type {
+  border-bottom: 1px solid #fff;
+}
